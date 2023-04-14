@@ -1,0 +1,25 @@
+<figure class="mb-1">
+    <div class="w-100 position-relative">
+    <video class="w-100"  #video id="main-fragman-id" src="assets/images/finch.mp4"></video>
+    <div class="main-fragman-text">
+    <h1>yess</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum cum pariatur </p>
+    </div>
+    <button class="muted text-dark " #mutedButton (click)="toggleMute()">
+        <ng-container *ngIf="!isMuted">
+            <i class="fa-solid fa-volume-xmark text-light"></i>
+        </ng-container>
+        <ng-container *ngIf="isMuted">
+            <i class="fa-solid fa-volume-high"></i>
+        </ng-container>
+    </button>
+    <button  class="play-stop text-dark" #playButton (click)="togglePlay()">
+        <ng-container class="play-stop-click" *ngIf="!isPlaying">
+            <i class="fa-solid fa-play"></i>
+        </ng-container>
+        <ng-container class="play-stop-click" *ngIf="isPlaying">
+            <i class="fa-solid fa-stop"></i>
+        </ng-container>
+      </button>
+    </div>
+</figure>

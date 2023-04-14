@@ -1,0 +1,7 @@
+<div class="float-left overflow-hidden container-fluid mt-5"><a href="#" class="d-inline-flex"><h4 class=".slider-header ms-5 mb-3"><strong>Current Serials Movies</strong></h4></a><a href="#"><strong class="text-right float-end slider-more">More</strong></a>
+  <owl-carousel-o [options]="customOptions" class="slider-wrap">
+    <ng-container class="slider-main" *ngFor="let movie of current_serials">
+    <ng-template carouselSlide><div class="movie-img"><h1><a href="#"><i class="fa-sharp fa-solid fa-circle-play fa-2xl slider-play"></i><img style="width: 100%;" src="{{movie.img}}" alt=""></a></h1></div></ng-template>
+    </ng-container>
+</owl-carousel-o>
+</div>

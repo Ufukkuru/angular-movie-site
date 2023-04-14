@@ -1,0 +1,261 @@
+figure{
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    max-height: 600px;
+}
+
+.main-fragman-text{
+    width: 40%;
+    height: 150px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 5%;
+    left: 100px;
+}
+
+h1{
+    font-size: 45px;
+}
+p{
+    font-size: 25px;
+}
+
+.muted{
+    opacity: 0.8;
+    bottom: 8%;
+    right: 5%;  
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    justify-content: center;
+    font-size: 35px;
+    position: absolute;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.9s ease-in-out;
+}
+
+.play-stop{
+    opacity: 0.8;
+    bottom: 8%;
+    right: 9.5%;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    justify-content: center;
+    font-size: 35px;
+    position: absolute;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.9s ease-in-out;
+}
+
+.play-stop:hover,.muted:hover{
+    transform: scale(1.1);
+}
+
+@media screen and (max-width:1300px){
+    figure{
+        max-height: 600px;
+    }
+    
+    .main-fragman-text{
+        width: 40%;
+        bottom: 5%;
+        left: 100px;
+        height: 200px;
+    }
+    
+    h1{
+        font-size: 40px;
+    }
+    p{
+        font-size: 25px;
+    }
+    
+    .muted{
+        bottom: 15%;
+        right: 5%;  
+        width: 55px;
+        height: 55px;
+        font-size: 35px;
+    }
+    
+    .play-stop{
+        bottom: 15%;
+        right: 11%;
+        width: 55px;
+        height: 55px;
+        font-size: 35px;
+    }
+    
+    .play-stop:hover,.muted:hover{
+        transform: scale(1.1);
+    }
+}
+
+@media screen and (max-width:950px){
+    figure{
+        max-height: 600px;
+    }
+    
+    .main-fragman-text{
+        width: 50%;
+        bottom: 2%;
+        left: 70px;
+        height: 170px;
+    }
+    
+    h1{
+        font-size: 35px;
+    }
+    p{
+        font-size: 20px;
+    }
+    
+    .muted{
+        bottom: 15%;
+        right: 5%;  
+        width: 50px;
+        height: 50px;
+        font-size: 30px;
+    }
+    
+    .play-stop{
+        bottom: 15%;
+        right: 12.5%;
+        width: 50px;
+        height: 50px;
+        font-size: 30px;
+    }
+    
+    .play-stop:hover,.muted:hover{
+        transform: scale(1.1);
+    }
+}
+@media screen and (max-width:750px){
+    figure{
+        max-height: 600px;
+    }
+    
+    .main-fragman-text{
+        width: 50%;
+        bottom: 3%;
+        left: 50px;
+        height: 125px;
+    }
+    
+    h1{
+        font-size: 20px;
+    }
+    p{
+        font-size: 15px;
+    }
+    
+    .muted{
+        bottom: 17%;
+        right: 5%;  
+        width: 45px;
+        height: 45px;
+        font-size: 25px;
+    }
+    
+    .play-stop{
+        bottom: 17%;
+        right: 14%;
+        width: 45px;
+        height: 45px;
+        font-size: 25px;
+    }
+    
+    .play-stop:hover,.muted:hover{
+        transform: scale(1.1);
+    }
+}
+
+@media screen and (max-width:500px){
+    figure{
+        max-height: 600px;
+    }
+    
+    .main-fragman-text{
+        width: 50%;
+        white-space: nowrap;
+        bottom: 2%;
+        left: 20px;
+        height: 100px;
+    }
+    
+    h1{
+        font-size: 25px;
+    }
+    p{
+        font-size: 14px;
+    }
+    
+    .muted{
+        bottom: 19%;
+        right: 5%;  
+        width: 35px;
+        height: 35px;
+        font-size: 20px;
+    }
+    
+    .play-stop{
+        bottom: 19%;
+        right: 14%;
+        width: 35px;
+        height: 35px;
+        font-size: 20px;
+    }
+    
+    .play-stop:hover,.muted:hover{
+        transform: scale(1.1);
+    }
+}
+
+@media screen and (max-width:400px){
+    figure{
+        max-height: 600px;
+    }
+    
+    .main-fragman-text{
+        width: 50%;
+        white-space: nowrap;
+        bottom: 2%;
+        left: 20px;
+        height: 80px;
+    }
+    
+    h1{
+        font-size: 22px;
+    }
+    p{
+        font-size: 12px;
+    }
+    
+    .muted{
+        bottom: 16%;
+        right: 5%;  
+        width: 28px;
+        height: 28px;
+        font-size: 14px;
+    }
+    
+    .play-stop{
+        bottom: 16%;
+        right: 15.5%;
+        width: 28px;
+        height: 28px;
+        font-size: 14px;
+    }
+    
+    .play-stop:hover,.muted:hover{
+        transform: scale(1.1);
+    }
+}

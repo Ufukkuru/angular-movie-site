@@ -1,1 +1,228 @@
 /* You can add global styles to this file, and also import other style files */
+.owl-carousel, .owl-stage-outer {
+    overflow:visible !important; 
+}
+.owl-item:hover{
+    z-index: 10;
+}
+
+.owl-prev i, .owl-next i {
+  color: white;
+  font-size: 35px;
+}
+
+.owl-prev, .owl-next {
+  position:absolute;
+  top: 0;
+  height:30%;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 30px;
+  background: #869791;
+
+}
+
+.owl-prev {
+  left:0;
+  top: 37%;
+}
+
+.owl-next {
+  right:0;
+  top: 37%;
+}
+
+.owl-prev:hover, .owl-next:hover{
+  background: gray !important;
+  outline: none !important;
+  opacity: 0.8;
+}
+
+.owl-prev, .owl-next{
+  background: none !important;
+  outline: none;
+  opacity: 0.6;
+  transition:  all 0.5s  ease-in-out ;
+}
+
+*{
+  font-family: 'lato','sans-serif';
+    padding: 0;
+    margin: 0;
+    color: white;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.slider-more{
+  display: block;
+}
+
+.slider-more:hover{
+  scale: 1.2;
+  transition: all 0.9s ease-in-out;
+  color: aliceblue;
+}
+
+.black{
+    background-color: #141414;
+}
+
+.slider-wrap{
+    position: relative;
+    height: 170px;
+}
+
+.slider-main{
+    width: 100%;
+}
+
+.movie-img{
+    width: 300px;
+    height: 150px;
+    transition: all 0.7s ease-out;
+    padding-left: 20px;
+}
+
+.slider-play{
+    display: none;
+}
+.movie-img:hover .slider-play{
+    display: block;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 41%;
+    width: 100px;
+}
+
+.movie-img:hover  {
+    transform: scale3d(1.2, 1.2, 1);
+}
+
+@media screen and (max-width:1300px) {
+    .movie-img{
+    width: 300px;
+    height: 150px;
+    }
+  }
+@media screen and (max-width:1200px) {
+    .movie-img{
+    width: 300px;
+    height: 150px;
+    }
+  }
+@media screen and (max-width:1100px) {
+    .movie-img{
+    width: 300px;
+    height: 150px;
+    }
+  }
+  @media screen and (max-width:1000px) {
+    .movie-img{
+    width: 300px;
+    height: 150px;
+    }
+  }
+@media screen and (max-width:940px) {
+    .movie-img{
+    width: 295px;
+    height: 145px;
+    }
+  }
+  @media screen and (max-width:924px) {
+    .movie-img{
+    width: 295px;
+    height: 150px;
+    }
+  }
+@media screen and (max-width:800px) {
+    .movie-img{
+    width: 275px;
+    height: 135px;
+    }
+    .slider-more{
+      display: none;
+    }
+  }
+@media screen and (max-width:750px) {
+    .movie-img{
+    width: 260px;
+    height: 135px;
+    }
+}
+@media screen and (max-width:700px) {
+    .movie-img{
+    width: 260px;
+    height: 135px;
+    }
+}
+@media screen and (max-width:650px) {
+    .movie-img{
+    width: 245px;
+    height: 125px;
+    }
+  }
+@media screen and (max-width:600px) {
+    .movie-img{
+    width: 230px;
+    height: 115px;
+    }
+  }
+@media screen and (max-width:550px) {
+    .movie-img{
+    width: 210px;
+    height: 110px;
+    }
+}
+@media screen and (max-width:500px) {
+  .movie-img{
+  width: 210px;
+  height: 100px;
+  }
+}
+@media screen and (max-width:450px) {
+  .movie-img{
+  width: 200px;
+  height: 100px;
+  }
+}
+@media screen and (max-width:400) {
+    .movie-img{
+    width: 180px;
+    height: 100px;
+    }
+  }
+@media screen and (max-width:350px) {
+    .slider-header{
+        font-size: 13px;
+    }
+    .movie-img{
+    width: 180px;
+    height: 90px;
+    margin: 0 6px;
+    }
+}
+@media screen and (max-width:320px) {
+    .slider-header{
+        font-size: 12px;
+    }
+    .movie-img{
+    width: 180px;
+    height: 90px;
+    margin: 0 6px;
+    }
+}
+@media screen and (max-width:250px) {
+  .slider-header{
+      font-size: 10px;
+  }
+  .movie-img{
+  width: 180px;
+  height: 90px;
+  margin: 0 6px;
+  }
+}
